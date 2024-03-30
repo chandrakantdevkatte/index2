@@ -1,0 +1,23 @@
+.ex{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: colors 5s infinite ;
+}
+@keyframes colors {
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    75%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: pink;
+    }
+}
